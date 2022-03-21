@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Cloning our Git') { 
             steps { 
-                git 'https://github.com/rajkumar2289/maven-archetype-webapp.git' 
+                git 'https://github.com/pallem260497/Jenkins-Terraform.git' 
             }
         } 
         stage('list Git') { 
